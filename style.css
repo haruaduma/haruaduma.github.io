@@ -244,6 +244,12 @@ a:hover{
     font-size: 1.4rem;
     margin-bottom: 20px;
 }
+.cast-staff .cast-table{
+    overflow-x: auto;
+    padding: 0 20px;
+    width: 100%;
+    display: block;
+}
 .cast-staff .table{
     text-align: center;
     width: 100%;
@@ -298,8 +304,14 @@ footer{
     padding: 2rem 0;
     font-size: 0.9rem;
 }
-/*
+
 @media screen and (max-width: 767px){
+    #header .navi a{
+        font-size: 0.75rem;
+    }
+    #header .navi{
+        gap: 1rem;
+    }
     main{
         padding-top: 60px;
     }
@@ -312,12 +324,12 @@ footer{
         width: 45%;
         height: 45%;
     }
-     /* next *//*
+     /* next */
     #next .next-group{
         padding: 25px 15px;
     }
-    #next .next-warapper{
-        flex-direction: column;
+    #next .next-wrapper{
+        flex-direction: column-reverse;
         align-items: center;
         gap: 25px;
     }
@@ -353,6 +365,9 @@ footer{
         margin: 10px 20px;
     }
     .cast-staff .table{
+        width: 800px;
+        max-width: none;
+        white-space: nowrap;
         font-size: 12px;
         white-space: nowrap;
         overflow-x: auto;
