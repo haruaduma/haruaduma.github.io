@@ -528,6 +528,8 @@ footer{
 @media screen and (max-width: 767px){
     #header .navi a{
         font-size: 0.78rem;
+        padding: 0;
+        white-space: nowrap;
     }
     #header .navi{
         gap: 1rem;
