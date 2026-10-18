@@ -652,4 +652,28 @@ footer{
         padding: 0;
         white-space: nowrap;
     }
+    #next .next-wrapper{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+    #next .info{
+        width: 100%;
+        max-width: 95%;
+        text-align: center;
+    }
+    .nextDetail{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nextDetail dt,
+    .nextDetail dd{
+        width: 100%;
+        padding: 8px 0;
+        text-align: center;
+        border-top: none;
+    }
+    .nextDetail dd{
+        border-bottom: 1px solid #f2e5e9;
+    }
 }
